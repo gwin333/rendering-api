@@ -1,15 +1,23 @@
 {
   "name": "rendering-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Overview",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "anonymous",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "~4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwin333/rendering-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gwin333/rendering-api/issues"
+  },
+  "homepage": "https://github.com/gwin333/rendering-api#readme"
 }

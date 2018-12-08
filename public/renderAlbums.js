@@ -54,7 +54,8 @@ function renderSong(song) {
 
 function albums() {
     var content = document.getElementById('content');
-    axios.get('/api/albums').then(function(response){
+    axios.get('/api/albums')
+    .then(function(response){
         content.innerHTML = renderBands(response.data);
     });
 }
